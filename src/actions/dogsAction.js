@@ -11,14 +11,12 @@ export const getDogs = () => dispatch => {
     payload: {}
   }))
 }
-
 export const currDog = (dog) => {
   return {
     type: CURR_DOG,
     payload: dog
   };
 }
-
 export const setDogLoading = () => {
   return {
     type: DOG_LOADING

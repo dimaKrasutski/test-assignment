@@ -26,7 +26,7 @@ export default () => {
                     <Route exact path="/dogs" component={Dogs} />
                     <Route exact path="/carousel" component={Carousel} />
                     <Route exact path="/currdog" component={CurrDog} />
-                    <Route exact path="*" component={NotFound} />
+                    <Route  component={NotFound} />
                   </Switch>
                 </div>
               </div>
